@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.completo {
+    position: fixed;
+}
+
+.cabeca {
+    display: grid;
+    grid-template-columns: 70% 20% 10%;
+    padding: 10px 30px;
+
+}
+
+.link1 {
+    text-decoration: none;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.link2 {
+    text-decoration: none;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.link3 {
+    text-decoration: none;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.link4 {
+    text-decoration: none;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.login {
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    font-size: small;
+    padding: 5px 30px;
+    border-radius: 3px;
+}
+
+.todo {
+    display: grid;
+    grid-template-columns: 50% 50%
+}
+
+.caixa {
+    padding: 50px 170px;
+    width: 400px;
+    height: 100px;
+    text-align: left;
+}
+
+.t1 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+}
+
+.t2 {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    padding: 10px;
+}
+
+.final{
+    background-color: #e7e2e2;
+    padding: 30px;
+}
+
+.link {
+    text-decoration: none;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: small;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.img {
+    display: grid;
+    padding: 30px 20px;
+}
+
+.t3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.im6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 5px 350px;
+}
